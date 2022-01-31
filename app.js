@@ -196,3 +196,6 @@ app.use((err, req, res, next) => {
 app.get("*", (req, res) => {
   res.status(404).send("404 Not Found!");
 });
+
+
+// The keyhole- "Peeping into the infinity"
