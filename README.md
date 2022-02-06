@@ -1,5 +1,5 @@
 <h1 align="center">THE KEYHOLE <img src="https://cdn.jsdelivr.net/gh/uzibytes/The-Keyhole@master/public/image/logo_1.1.png" width="25px"></h1>
- <p align="center">As a child, we all wanted to see how the world looks through a KEYHOLE. And this is why we call this website "KEYHOLE" where one can <b>Peep Into the Infinity</b> and explore the basic domains of Crypto Market, Quotes, Words & Even save your notes.</p>
+ <p align="center">As a child, we all wanted to see how the world looks through a KEYHOLE. And this is why we call this website "THE KEYHOLE" where one can <b>"Peep Into the Infinity"</b> and explore the basic domains of Crypto Market, Quotes, Words & Even save your notes.</p>
  
 ## Contents
 
@@ -19,8 +19,8 @@
 
 ### Team
 
-- Ankit Aayush (Pursuing B.TECH in I.T.)
-- Ujjwal Raj (Pursuing B.TECH in C.S.E.)
+- <a href="https://github.com/uzibytes">Ujjwal Raj</a> (Pursuing B.TECH in C.S.E.) [Frontend and API]
+- <a href="https://github.com/Ankitaayush">Ankit Aayush</a> (Pursuing B.TECH in I.T.) [Backend and React]
 
 ### Tech Stack
 
@@ -56,7 +56,7 @@
 - Fix some Sign Up issues
 - Fix Forget password issue
 - Optimise the Crypto Section
-- Saving Notes to User Database (Currently notes are saved in the user's Local storage)
+- Saving Notes to User Database in server (Currently notes are saved in the user's Local storage)
 
 
 ### Link
