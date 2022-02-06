@@ -30,18 +30,27 @@ require('./config/passport')(passport);
 
 //Setting Up mongoose
   //mongodb://127.0.0.1/keyhole  -- localhost:27017
-mongoose
-  .connect("mongodb://localhost:27017/keyhole", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then(() => {
-    console.log(`connection successful`);
-  })
-  .catch((error) => {
-    console.log(error);
-    console.log(`no connection`);
-  });
+// mongoose
+//   .connect("mongodb://localhost:27017/keyhole", {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true,
+//   })
+//   .then(() => {
+//     console.log(`connection successful`);
+//   })
+//   .catch((error) => {
+//     console.log(error);
+//     console.log(`no connection`);
+//   });
+
+//connectiong to db
+mongoose.set('useUnifiedTopology', true);
+mongoose.set('useNewUrlParser', true);
+//const connect=mongoose.connect(process.env.MONGODB_URL);
+const connect=mongoose.connect(process.env.MONGODB_URI);
+connect.then(()=>{
+  console.log("connected to db");
+},(err)=>{console.log(err);});
 
 app.use(bodyParser.json());
 app.use(bodyParser.text());
