@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Keyhole</title>
+    <link rel="icon" href="./image/logo_icon.png">
+    <title>KeyHole</title>
     <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/preloader.css">
+
   </head>
 
   <body>
-    <a href="homepage.html"><button class="home_but">HOME</button></a>
+    <div id="preloader"></div>
+
+    <button class="home_but" onclick="history.back()">BACK</button>
     <div id="particles-js"></div>
     <div class="main-container">
       <div class="card-container1">
@@ -70,13 +75,13 @@
         <div class="skills" onselectstart="return false">
           <h6>Skills</h6>
           <ul>
-            <li>C++</li>
+            <li>C/C++</li>
             <li>UI / UX</li>
             <li>Front End Development</li>
+            <li>JAVA</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
-            <li>Bootstrap</li>
           </ul>
         </div>
       </div>
@@ -93,5 +98,7 @@
     </footer>
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="./javascript/paricle.js"></script>
+    <script src="./javascript/preloader.js"></script>
+
   </body>
 </html>
