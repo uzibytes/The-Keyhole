@@ -36,13 +36,14 @@
 
 ### Achievement
 
-- Personalised and encrypted Login/Sign Up
-- Search Meaning of any word/phrase with audio pronunciation (Used API)
-- Get Word of the Day (Used API)
-- Get Quote of the Day (Used API)
-- Save your Notes (Used React)
-- See the Cryptocurrency current graph (in Beta)
-- Material UI across all pages with advanced Particle JS
+- Fully responsive website and compatible with most of the modern browsers and devices.
+- Personalised and encrypted Login/Sign Up.
+- Search Meaning of any word/phrase with audio pronunciation (Used API).
+- Get Word of the Day (Used API).
+- Get Quote of the Day (Used API).
+- Save your Notes (Used React).
+- See the Cryptocurrency current graph (in Beta).
+- Material UI across all pages with advanced Particle JS.
 
 ### How-to-run
 
@@ -53,15 +54,17 @@
 
 ### Future-Updates
 
-- Fix some Sign Up issues
-- Fix Forget password issue
-- Optimise the Crypto Section
-- Saving Notes to User Database in server (Currently notes are saved in the user's Local storage)
-
+- Fix some Sign Up issues.
+- Fix Forget password issue.
+- Optimise the Crypto Section.
+- Saving Notes to User Database in server (Currently notes are saved in the user's Local storage).
 
 ### Link
 
 - You can access our website from the following link : 
 - Register Yourself using your email id and start exploring.
 
-## Happy KeyHoling 😄
+<br>
+<h1 align="center"><img src="https://cdn.jsdelivr.net/gh/uzibytes/The-Keyhole@master/public/image/logo_1.1.png" width="25px"> Happy Keyholing 😁 </h1>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Oldenburg&color=%23FFFFFF&lines=Peeping+into+the+infinity...)](https://git.io/typing-svg)
