@@ -37,6 +37,11 @@ router.get("/explore", (req, res) => {
     res.render("explore");
   });
 
+//Terms page
+router.get("/tc", (req, res) => {
+    res.render("tc");
+  });
+
 //Word of the Day Page
 router.get("/wotd", (req, res) => {
     res.render("wotd");
@@ -135,7 +140,9 @@ router.post("/register", async (req, res) => {
                         user: {}
                       };
                       showUser.user = user;
-                    return  res.status(200).json(showUser);
+                    // return  res.status(200).json(showUser);
+    res.render("homepage",{message:"welcome to home page"});
+
                     }
                   });
                 }
