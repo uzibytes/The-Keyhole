@@ -29,9 +29,9 @@ const cookieParser = require('cookie-parser')
 require('./config/passport')(passport);
 
 //Setting Up mongoose
-//   mongodb://127.0.0.1/keyhole  -- localhost:27017
+  //mongodb://127.0.0.1/keyhole  -- localhost:27010
 mongoose
-  .connect("mongodb://localhost:27017/keyhole", {
+  .connect("mongodb+srv://uraj212001:63186318@uzibytes.rmw8i.mongodb.net/users_keyhole?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
@@ -43,18 +43,9 @@ mongoose
     console.log(`no connection`);
   });
 
-//connectiong to db
-// mongoose.set('useUnifiedTopology', true);
-// mongoose.set('useNewUrlParser', true);
-// //const connect=mongoose.connect(process.env.MONGODB_URL);
-// const connect=mongoose.connect(process.env.MONGODB_URI);
-// connect.then(()=>{
-//   console.log("connected to db");
-// },(err)=>{console.log(err);});
-
-// app.use(bodyParser.json());
-// app.use(bodyParser.text());
-// app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+app.use(bodyParser.text());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 
 // Express session
